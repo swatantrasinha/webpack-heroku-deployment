@@ -10,7 +10,7 @@ module.exports = {
     entry: './src/index.js', // it can be multiple file. For multiple file use array with proper path
     output: {// this is for output where you want to put your file after complete build process
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js'
+        filename: 'main.js'
     },
     module: {// here we will load some external resource. which we are using to build our project
         rules: [
