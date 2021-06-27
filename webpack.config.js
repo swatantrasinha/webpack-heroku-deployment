@@ -17,7 +17,7 @@ module.exports = {
             {
                 test: /\.js$/, // it will find all js
                 use: 'babel-loader', // which will perform some functioanlity during build process.
-                exclude: [/node_modules/, /dist/]// expect this
+                exclude: [/node_modules/, /dist/]// except this
             },
             {
                 test: /\.css$/,
